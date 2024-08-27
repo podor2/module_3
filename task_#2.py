@@ -18,5 +18,3 @@ def get_numbers_ticket(min, max, quantity):
 
     
     
-
-print(get_numbers_ticket(5,9,3))
