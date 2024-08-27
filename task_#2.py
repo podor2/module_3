@@ -15,4 +15,3 @@ def get_numbers_ticket(min, max, quantity):
     return sorted(list(lottery_numbers))
 
     
-
