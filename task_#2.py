@@ -4,7 +4,7 @@ import random
 def get_numbers_ticket(min, max, quantity):
 
     lottery_numbers = set()
-    condition = not (1 < min < max < 1000 and quantity <= max - min)
+    condition = 1 <= min < max <= 1000 and quantity <= max - min
     if condition :
         try:
             while len(lottery_numbers) != quantity:
