@@ -14,4 +14,3 @@ def get_days_from_today(date):
     
     
 
-print(get_days_from_today('2023-01-14'))
